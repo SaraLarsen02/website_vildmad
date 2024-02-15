@@ -10,6 +10,12 @@ img {
   display: block;
 }
 
+/* HEADER */
+
+#logo_navn {
+  font-family: "public sans";
+}
+
 .logo {
   width: 70px;
   padding-top: 5px;
@@ -24,6 +30,7 @@ header {
   top: 0;
   font-family: "public sans";
   font-size: 20px;
+  z-index: 100;
 
   color: white;
 }
@@ -142,3 +149,5 @@ nav {
     text-decoration: underline;
   }
 }
+
+/* HEADER SLUT*/
